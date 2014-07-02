@@ -28,19 +28,38 @@
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/editText1"
-        android:layout_marginRight="28dp"
-        android:layout_marginTop="36dp"
-        android:layout_toLeftOf="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="32dp"
         android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageButton1"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginRight="30dp"
+        android:scaleType="fitXY"
         android:src="@drawable/images_anayuki001" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="38dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/oraf01" />
 
 </RelativeLayout>
